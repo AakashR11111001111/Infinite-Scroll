@@ -8,7 +8,6 @@
 body,html{
     user-select: none;
     font-family: "Josefin Sans", sans-serif;
-    height: 100vh;
     width: 100vw;
     overflow-x: hidden;
 }
@@ -26,20 +25,6 @@ body,html{
     text-align: center;
     padding: 5px 0;
     font-size: 50px;
-}
-
-#cursor{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, 0.59);
-    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    pointer-events: none;
-    transition: all 0.05s ease;
 }
 
 .img-container{
